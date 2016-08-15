@@ -1,30 +1,41 @@
-.mainForm{
+body {
+    margin: 0 auto;
+    width: 90%;
+}
+#registrationform{
     background: #ffa520;
     width: 40%;
 }
-.mainForm h2{
+#registrationform h2{
     color: white;
     font-family: "Baskerville Old Face";
     font-size: large;
     font-style: italic;
 }
-.formBody{
+.nobullet{
     display: table;
     list-style-type: none;
     padding-right: 90px;
 }
-.formBody li{
+.nobullet li{
     display: table-row;
 
 }
-.formBody label{
+.nobullet label{
     display: table-cell ;
     padding: 0px 10px 10px 0px;
 }
-.formBody input{
+.nobullet input{
     display: table-cell;
     padding-left: 10px;
 }
 .buttonHolder{
     text-align: center;
+}
+.fetchData p{
+    display: block;
+    text-align: justify;
+    font-family: "SourceSansPro-SemiBold", sans-serif;
+    font-size: 12pt;
+    width: 90%;
 }
