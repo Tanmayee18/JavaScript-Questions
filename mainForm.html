@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CPanel Code Test</title>
+    <link rel="stylesheet" href="mainForm.css" type="text/css">
+    <!-- Loading External scripts  -->
+    <script type="text/javascript" src="mainForm.js"></script>
+    <script src="http://yui.yahooapis.com/3.18.1/build/yui/yui-min.js"></script>
+</head>
+<body>
+<div class="mainForm">
+    <h2>Part 1: Register your cPanel Software</h2>
+    <!-- Add validate function on form submission -->
+    <form action="http://register.cgi" method="POST" name="0.1_loginform" target="_blank" onsubmit="return validateForm()">
+        <input type="hidden" name="action" value="register">
+        <ul class="formBody">
+            <li><label>Desired user name</label><input type="text" name="username" value="" minlength="8" required></li>
+            <li><label>Password</label><input type="password" name="password" value="" minlength="8" required></li>
+            <li><label>User Number</label><input type="text" name="usernumber" value="" minlength="3" required></li>
+            <li><label>Geographic Location</label><input type="text" name="geoglocation" value=""></li>
+        </ul>
+        <div class="buttonHolder">
+            <input class="button" type="submit" alt="register" name="register" value="Register" onclick="return validateForm()">
+        </div>
+    </form>
+
+</div>
+</body>
+</html>

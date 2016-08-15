@@ -1,0 +1,30 @@
+.mainForm{
+    background: #ffa520;
+    width: 40%;
+}
+.mainForm h2{
+    color: white;
+    font-family: "Baskerville Old Face";
+    font-size: large;
+    font-style: italic;
+}
+.formBody{
+    display: table;
+    list-style-type: none;
+    padding-right: 90px;
+}
+.formBody li{
+    display: table-row;
+
+}
+.formBody label{
+    display: table-cell ;
+    padding: 0px 10px 10px 0px;
+}
+.formBody input{
+    display: table-cell;
+    padding-left: 10px;
+}
+.buttonHolder{
+    text-align: center;
+}
